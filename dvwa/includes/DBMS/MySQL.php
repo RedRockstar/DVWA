@@ -64,7 +64,7 @@ if( !mysqli_query($GLOBALS["___mysqli_ston"],  $insert ) ) {
 dvwaMessagePush( "Data inserted into 'users' table." );
 
 // Add role column to users table
-$alter_users = "ALTER TABLE users ADD COLUMN IF NOT EXISTS role VARCHAR(20) DEFAULT 'user';";
+$alter_users = "ALTER TABLE users ADD COLUMN role VARCHAR(20) DEFAULT 'user';";
 if( !mysqli_query($GLOBALS["___mysqli_ston"], $alter_users) ) {
     dvwaMessagePush( "Could not add role column to users table<br />SQL: " . ((is_object($GLOBALS["___mysqli_ston"])) ? mysqli_error($GLOBALS["___mysqli_ston"]) : (($___mysqli_res = mysqli_connect_error()) ? $___mysqli_res : false)) );
     dvwaPageReload();
