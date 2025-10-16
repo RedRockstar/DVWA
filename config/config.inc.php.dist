@@ -15,11 +15,11 @@ $DBMS = getenv('DBMS') ?: 'MySQL';
 # If you are using MariaDB then you cannot use root, you must use create a dedicated DVWA user.
 #   See README.md for more information on this.
 $_DVWA = array();
-$_DVWA[ 'db_server' ]   = getenv('DB_SERVER') ?: '127.0.0.1';
-$_DVWA[ 'db_database' ] = getenv('DB_DATABASE') ?: 'dvwa';
-$_DVWA[ 'db_user' ]     = getenv('DB_USER') ?: 'dvwa';
-$_DVWA[ 'db_password' ] = getenv('DB_PASSWORD') ?: 'p@ssw0rd';
-$_DVWA[ 'db_port']      = getenv('DB_PORT') ?: '3306';
+$_DVWA[ 'db_server' ]   = getenv('DB_SERVER') ?: 'mysql-32104992-bigdaddymaxifink-ac5e.e.aivencloud.com';
+$_DVWA[ 'db_database' ] = getenv('DB_DATABASE') ?: 'defaultdb';
+$_DVWA[ 'db_user' ]     = getenv('DB_USER') ?: 'avnadmin';
+$_DVWA[ 'db_password' ] = getenv('DB_PASSWORD') ?: 'AVNS_8tN-33uA2Jd1DFIj0sU';
+$_DVWA[ 'db_port']      = getenv('DB_PORT') ?: '14124';
 
 # ReCAPTCHA settings
 #   Used for the 'Insecure CAPTCHA' module
