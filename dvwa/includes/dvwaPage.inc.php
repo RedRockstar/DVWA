@@ -323,12 +323,12 @@ function dvwaHtmlEcho( $pPage ) {
 		$menuBlocks[ 'meta' ][] = array( 'id' => 'phpinfo', 'name' => 'PHP Info', 'url' => 'phpinfo.php' );
 	}
 	$menuBlocks[ 'meta' ][] = array( 'id' => 'about', 'name' => 'About', 'url' => 'about.php' );
-
+/*
 	if( dvwaIsLoggedIn() ) {
 		$menuBlocks[ 'logout' ] = array();
 		$menuBlocks[ 'logout' ][] = array( 'id' => 'logout', 'name' => 'Logout', 'url' => 'logout.php' );
 	}
-
+*/
 	$menuHtml = '';
 
 	foreach( $menuBlocks as $menuBlock ) {
