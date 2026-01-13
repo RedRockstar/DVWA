@@ -393,7 +393,7 @@ function dvwaHtmlEcho( $pPage ) {
 	<head>
 		<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />
 
-		<meta name="insight-app-sec-validation" content="a4c194f5-d9f3-4b3c-8bfd-c7926a140e51">
+		<meta name='insight-app-sec-validation' content='a4c194f5-d9f3-4b3c-8bfd-c7926a140e51' />
 		
 		<title>{$pPage[ 'title' ]}</title>
 
